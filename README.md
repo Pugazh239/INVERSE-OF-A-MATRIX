@@ -13,7 +13,7 @@ Step 3: Use the np.linalg.inv() fun
 
 Step 4: End the program.
 ## Program:
-
+~~~
 import numpy as np
 
 matrix = np.array([[1, 0, 3], 
@@ -22,6 +22,7 @@ matrix = np.array([[1, 0, 3],
 
 inverse_matrix = np.linalg.inv(matrix)
 print(inverse_matrix)
+~~~
 
 #Program to find the inverse of a matrix.
 
